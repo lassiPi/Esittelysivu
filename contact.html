@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palaute - Lassi Pirinen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--
+    <?php
+    if(isset($_POST['submit'])) 
+    { 
+        $kommentti = $_POST['kommentti'];
+        echo "Kommentti: <b> $kommentti </b>";
+    }
+    ?>
+    -->
+    <div id="container">
+      <div id="header">
+        <h1>Lassi Pirinen - Syksy 2021 (UEF)</h1>
+      </div>
+      <div id="nav">
+        <ul>
+          <li><a href="index.html">Aloitussivu</a></li>
+          <li><a href="about.html">Tietoa</a></li>
+          <li><a href="opintojaksot.html">Opintojaksot</a></li>
+          <li class="active">Palaute</li>
+        </ul>
+      </div>
+      <div id="main">
+        <h1>Kommenttikenttä</h1>
+        <div id="kommenttipalsta">
+          <br />
+          <textarea
+            type="text"
+            id="kommentti"
+            rows="7"
+            value=""
+            style="resize: none"
+          ></textarea>
+        </div>
+        <button type="submit" onclick="kommentointi()">Lähetä</button>
+      </div>
+      <div id="sidebar">
+        <textarea
+          style="resize: none"
+          disabled
+          type="text"
+          id="kommentit"
+          class="tekstit"
+          value=""
+          cols="2"
+          rows="15"
+        ></textarea>
+      </div>
+      <div class="clr"></div>
+      <div id="footer"></div>
+      <p>Copyright &copy 2021</p>
+    </div>
+    <script src="kommentointi.js"></script>
+  </body>
+</html>

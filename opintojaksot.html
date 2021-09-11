@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opintojaksot - Lassi Pirinen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="sienet()">
+    <div id="container">
+      <div id="header">
+        <h1>Lassi Pirinen - Syksy 2021 (UEF)</h1>
+      </div>
+      <div id="nav">
+        <ul>
+          <li><a href="index.html">Aloitussivu</a></li>
+          <li><a href="about.html">Tietoa</a></li>
+          <li class="active">Opintojaksot</li>
+          <li><a href="contact.html">Palaute</a></li>
+        </ul>
+      </div>
+      <div id="main">
+        <h1>Opintojaksot</h1>
+        <p>Tänä syksynä olen aloittanut seuraavien kurssien opiskelun:</p>
+        <ul class="opintojaksot">
+          <li><a href="#web-ohjelmointi">Web-ohjelmointi</a></li>
+          <li><a href="#matmal">Matemaattinen mallintaminen</a></li>
+          <li><a href="#umr">Usean muuttujan reaalianalyysi</a></li>
+        </ul>
+        <br />
+        <div id="web-ohjelmointi">
+          <h3>Web-ohjelmointi</h3>
+          <p>
+            Kurssilla keskitytään selainpohjaisten käyttöliittymien tekemiseen.
+            Käytössä ovat kielet HTML5, CSS3 ja Javascript. Kurssin etenemistä
+            jokainen opiskelija kirjaa henkilökohtaiseen kehittäjäblogiin.
+            Käyttöliittymäohjelmoinnin lisäksi tutustutaan
+            palvelinohjelmistoihin.<br /><br />
+            Omakohtainen kokemus Web-ohjelmoinnista on vähäistä. HTML-alkeet
+            olen opetellut muutamia vuosia sitten silloisen Ohjelmointi II
+            -kurssin yhteydessä.
+          </p>
+        </div>
+        <br />
+        <div id="matmal">
+          <h3>Matemaattinen mallintaminen</h3>
+          <p>
+            Kurssilla opetellaan matemaattisten ilmiöiden mallintamista
+            erilaisilla mallinnusohjelmistoilla. Harjoitustehtävien
+            ratkaisemiseen käytetään pääasiassa MATLABia. Opiskelijat on jaettu
+            pieniin ryhmiin, joissa he ratkaisevat yhdessä viikkotehtävät sekä
+            kurssin lopuksi toteuttavat harjoitustyön valitsemastaan aiheesta.
+          </p>
+        </div>
+        <br />
+        <div id="umr">
+          <h3>Usean muuttujan reaalianalyysi</h3>
+          <p>
+            Kurssi on jatkokurssi aikaisemmille analyysin kursseille. Kurssilla
+            tutkitaan reaalianalyysin menetelmiä yleisessä n-ulotteisessa
+            euklidisessa avaruudessa. Ensiksi tutustutaan erilaisiin usean
+            muuttujan funktioihin, sen jälkeen tutkitaan tasokäyriä ja
+            tasa-arvo- sekä tangenttitasoja. Loppukurssi keskittyy käyrä- ja
+            pintaintegraalien teoriaan.
+          </p>
+        </div>
+      </div>
+      <div id="sidebar">
+        <h3>Satunnainen sienikuva</h3>
+        <div id="sienikuva"></div>
+      </div>
+      <div class="clr"></div>
+      <div id="footer"></div>
+      <p>Copyright &copy 2021</p>
+    </div>
+    <script src="sienet.js"></script>
+  </body>
+</html>

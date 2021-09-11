@@ -1,0 +1,106 @@
+body {
+  background: rgb(68, 102, 65);
+  color: rgb(255, 255, 255);
+  font-family: garamond, serif;
+  line-height: 1.4em;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: arial;
+}
+
+h3 {
+  color: rgb(155, 177, 153);
+}
+
+button {
+  font-family: garamond;
+  font-size: 16px;
+  background: rgb(255, 255, 255);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.clr {
+  clear: both;
+}
+
+#container {
+  background: rgb(36, 46, 35);
+  width: 1100px;
+  margin: 30px auto;
+  overflow: hidden;
+  padding: 10px;
+}
+
+#nav {
+  height: 40px;
+  width: 100%;
+  background: rgb(68, 102, 65);
+}
+
+#nav ul {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+#nav li {
+  list-style: none;
+  float: left;
+  padding-right: 20px;
+}
+
+#nav .active {
+  font-weight: bold;
+  color: #000;
+}
+
+#main {
+  float: left;
+  width: 55%;
+}
+
+#sidebar {
+  float: right;
+  width: 40%;
+  background: rgb(68, 102, 65);
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#footer {
+  text-align: center;
+  padding: 10px;
+  /* background: rgb(68, 102, 65); */
+  margin-top: 30px;
+}
+
+.opintojaksot li {
+  border-bottom: 2px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  font-size: 17px;
+}
+.opintojaksot a {
+  background: rgb(68, 102, 65);
+  padding: 10px;
+}
+
+input,
+textarea {
+  width: 97%;
+  padding: 5px;
+  margin-bottom: 15px;
+}
